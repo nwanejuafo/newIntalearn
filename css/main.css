@@ -18,8 +18,9 @@ p {
 	color: #6c7279;
 }
 h1 {
-	font-size: 65px;
+	font-size: 30px;
 	color: #2d3033;
+	/* text-align: right; */
 }
 h2 {
 	font-size: 40px;
@@ -27,7 +28,7 @@ h2 {
 }
 h3 {
 	font-size: 28px;
-	color: #181818;
+	color: #3bc492;
 	font-weight: 300;
 }
 h4 {
@@ -42,7 +43,7 @@ h5 {
 	font-weight: 700;
 }
 .btn {
-	background-color: #3bc492;
+	background-color: blue;
 	color: #fff;
 	font-size: 13px;
 	font-weight: 600;
@@ -154,7 +155,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: #00aeda;
+	color: #e8ecee;
 	font-size: 13px;
 	font-weight: 700;
 	margin-left: 40px;
@@ -238,7 +239,7 @@ ul li {
 	transform: translateX(-50%) translateY(-50%);
 }
 .nav-toggle span:before, .nav-toggle span:after {
-	background-color:  #00aeda;
+	background-color: #e0e0e0;
 	content: "";
 	height: 100%;
 	position: absolute;
@@ -304,27 +305,31 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/African-American_Child__18a.jpeg);
-	background-position: center top;
+	background-image: url(../images/bigstock-African-American-boy-with-book-169872788.jpg);
+	background-position: centre center;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 750px;
+	min-height: 650px;
+	padding: 0%;
+	margin: auto;
+	opacity: 0.8;
 }
 .banner-text {
-	padding-top: 22%;
+	padding-top: 30%;
 }
 .banner-text h1 {
-	color: rgba(22, 241, 14, 0.979);
+	color: aquamarine;
 	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 65px;
+	font-size: 50px;
 	font-weight: 700;
 	text-transform: uppercase;
+	text-align:left;
 }
 .banner-text p {
-	color: rgba(22, 241, 14, 0.979);
+	color: mediumblue;
 	font-size: 25px;
 	font-weight: 400;
 	line-height: 24px;
@@ -379,7 +384,7 @@ ul li {
 	height: 100%;
 }
 .work .overlay {
-	background: rgba(0, 174, 218, 0.9);
+	background: #00aeda(0, 174, 218, 0.9);
 	height: 100%;
 	left: 0;
 	opacity: 0;
